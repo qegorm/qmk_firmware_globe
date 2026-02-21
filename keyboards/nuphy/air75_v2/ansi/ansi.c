@@ -218,6 +218,10 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
             }
             return false;
 
+        case AP_GLOB:
+            host_consumer_send(record->event.pressed ? AC_NEXT_KEYBOARD_LAYOUT_SELECT : 0);
+            return false;
+
         default:
             return true;
     }

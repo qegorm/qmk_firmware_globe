@@ -119,6 +119,7 @@
     { "name": "Show Battery Temp", "title": "Show Battery Temporarily", "shortName": "Bat Tmp" },
     { "name": "RGB Test", "title": "RGB Light Test", "shortName": "RGB Test" },
     { "name": "Link Timeout", "title": "RF Link Timeout", "shortName": "Link TO" },
-    { "name": "Sleep Timeout", "title": "KB Sleep Timeout", "shortName": "Sleep TO" }
+    { "name": "Sleep Timeout", "title": "KB Sleep Timeout", "shortName": "Sleep TO" },
+    { "name": "Globe", "title": "Mac Globe Key", "shortName": "Globe" }
   ]
 }
